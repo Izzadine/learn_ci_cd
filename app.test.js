@@ -6,6 +6,6 @@ describe('GET /', () => {
   it(`should return 'Works on my machine.'`, async () => {
     const res = await request(app).get('/').expect(200);
 
-    expect(res.text).toBe('Hello world!');
+    expect(res.text).toBe('It work on my machine');
   });
 });
