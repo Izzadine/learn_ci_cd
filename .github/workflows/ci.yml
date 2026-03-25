@@ -28,5 +28,8 @@ jobs:
       - name: fix formating
         run: npm run format
 
+      - name: check linting
+        run: npm run lint
+
       - name: Run tests
         run: npm test
